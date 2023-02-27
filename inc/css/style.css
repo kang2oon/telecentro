@@ -98,7 +98,7 @@ a{text-decoration:none;color:inherit;}
     .wrapper .td_divi.st2 > div:nth-child(2){width:16px;text-align:center;margin:0 8px;padding-top:20px;}
 .wrapper .guide{display:inline-block;margin-left:8px;font-size:12px;color:#999;}
 .wrapper .btn_wrapper{margin-top:40px;text-align:center;}
-.wrapper .help_link{display:inline-block;font-size:12px;}
+.wrapper .help_link{display:inline-block;font-size:12px;word-break:break-all;}
 .wrapper .help_link::before{
     content:"";position:relative;display:inline-block;width:16px;height:16px;margin-right:4px;opacity:.25;
     background-image:url(../images/link.svg);background-repeat:no-repeat;background-position:50% 50%;top:4px;
