@@ -1,0 +1,62 @@
+*{font-family:-apple-system,BlinkMacSystemFont,"Malgun Gothic","맑은 고딕",helvetica,"Apple SD Gothic Neo",sans-serif;box-sizing:border-box;font-size:14px;}
+html,body{position:relative;margin:0;padding:0;}
+.clearfix:before,.clearfix:after{content:"";display:block}.clearfix:after{clear:both;visibility:hidden;line-height:0;height:0}.clearfix{*zoom:1}
+img{max-width:100%;line-height:0;}
+ul,ol,li{list-style:none;margin:0;padding:0;}
+a{text-decoration:none;color:inherit;}
+/**/
+.btn{padding:8px 16px;border:1px solid #999;border-radius:5px;background-color:#f0f0f0;}
+    .btn.dark{background-color:#212d43;border-color:#212d43;color:#fff;}
+.tbl{width:100%;min-width:1024px;border-collapse:collapse;}
+    .tbl th{background-color:#212d43;color:#fff;padding:16px 8px;}
+    .tbl td{border-bottom:1px solid #ccc;padding:16px 8px;text-align:center;}
+    .tbl tbody tr:nth-child(even){background-color:#f9f9f9;}
+/**/
+.wrapper{padding:32px;}
+.wrapper h2{font-size:32px;margin:0;}
+.wrapper .search_box{display:flex;border:1px solid #ededed;background-color:#f9f9f9;padding:16px;border-radius:8px;margin:16px 0;}
+    .wrapper .search_box > div{margin:0 4px;}
+    .wrapper .search_box > div:nth-child(1),
+    .wrapper .search_box > div:nth-child(2),
+    .wrapper .search_box > div:nth-child(3){flex-grow:2;}
+    .wrapper .search_box > div:nth-child(4){flex-grow:4;}
+    .wrapper .search_box > div:nth-child(5){flex-grow:6;}
+    .wrapper .search_box > div:nth-child(6){flex-grow:1;}
+    .wrapper select{
+        padding:6px 8px;border:1px solid #999;border-radius:5px;width:100%;
+        background-color:#fff;background-image:url(../images/angle-down.svg);background-position:calc(100% - 8px) 50%;background-repeat:no-repeat;background-size:12px;
+        -webkit-appearance: none;
+           -moz-appearance: none;
+                appearance: none;
+    }
+    .wrapper select::-ms-expand {/*for IE11*/display:none;}
+    .wrapper input{padding:6px 8px;border:1px solid #999;border-radius:5px;width:100%;}
+    .wrapper input[type='submit']{cursor:pointer;}
+.wrapper .info_wrap{display:flex;justify-content:space-between;margin:32px 0 16px;}
+.wrapper .scroll_h{overflow-x:auto;}
+.wrapper .flag{display:inline-block;text-transform:uppercase;margin:0;text-indent:-9999px;width:20px;background-repeat:no-repeat;background-position:50% 50%;}
+    .wrapper .flag.kr{background-image:url(../flags/kr.svg);}
+    .wrapper .flag.us{background-image:url(../flags/us.svg);}
+    .wrapper .flag.th{background-image:url(../flags/th.svg);}
+    .wrapper .flag.mm{background-image:url(../flags/mm.svg);}
+    .wrapper .flag.vn{background-image:url(../flags/vn.svg);}
+    .wrapper .flag.id{background-image:url(../flags/id.svg);}
+    .wrapper .flag.kh{background-image:url(../flags/kh.svg);}
+    .wrapper .flag.np{background-image:url(../flags/np.svg);}
+    .wrapper .flag.ru{background-image:url(../flags/ru.svg);}
+    .wrapper .flag.uz{background-image:url(../flags/uz.svg);}
+    .wrapper .flag.mn{background-image:url(../flags/mn.svg);}
+    .wrapper .flag.lk{background-image:url(../flags/lk.svg);}
+    .wrapper .flag.ph{background-image:url(../flags/ph.svg);}
+    .wrapper .flag.bd{background-image:url(../flags/bd.svg);}
+    .wrapper .flag.pk{background-image:url(../flags/pk.svg);}
+    .wrapper .flag.la{background-image:url(../flags/la.svg);}
+    .wrapper .flag.cn{background-image:url(../flags/cn.svg);}
+.wrapper .page_wrap{text-align:center;margin-top:24px;}
+.wrapper .page_wrap a{display:inline-block;width:32px;background-repeat:no-repeat;background-position:50% 60%;background-size:50% 50%;margin:0 2px;padding:4px 0 6px;}
+    .wrapper .page_wrap a.first{background-image:url(../images/angles-left.svg);text-indent:-9999px;}
+    .wrapper .page_wrap a.prev{background-image:url(../images/angle-left.svg);text-indent:-9999px;}
+    .wrapper .page_wrap a.next{background-image:url(../images/angle-right.svg);text-indent:-9999px;}
+    .wrapper .page_wrap a.last{background-image:url(../images/angles-right.svg);text-indent:-9999px;}
+    .wrapper .page_wrap a.current{font-weight:bold;background-color:#232323;color:#fff;border-radius:4px;}
+
